@@ -1,0 +1,66 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"Microsoft Yahei",宋体，"Arial";
+}
+
+.wrap{
+	background-color:#eee;
+	margin:20px;
+	padding:20px;
+	border:1px solid #999;
+}
+
+.wrap:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:0px;
+}
+
+.team-logo{
+	width:200px;
+	height:80px;
+	padding:20px;
+	border:1px solid #999;
+	background-color:#ffffff;
+	float:left;
+}
+
+.team-logo-img{
+	width:80px;
+	height:80px;
+	border:1px solid #999;
+	float:left;
+	margin-right:20px;
+}
+
+.team-logo-img img{
+	width:80px;
+	height:80px;
+}
+
+.team-member{
+	width:80px;
+	height:380px;
+	padding:20px;
+	float:right;
+	border:1px solid #999;
+}
+
+.team-member img{
+	width:80px;
+	height:80px;
+	border:1px solid #999;
+	margin-top:20px;
+}
+
+.team-member a:first-child img{
+	margin-top:0px;
+}
+
+.team-intro{
+	border:1px solid #999;
+	padding:20px;
+	margin:0px 140px 0px 260px;
+}
