@@ -1,0 +1,24 @@
+#container{
+	margin:20px;
+}
+.btn{
+	border-radius:3px;
+	background-color:#fff;
+	width:80px;
+}
+
+#queue{
+	margin-top:5px;
+}
+.box{
+	display:inline-block;
+	height:40px;
+	width:auto;
+	background-color:#ff0000;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 10px 0px 10px;
+	margin-right:5px;
+	margin-bottom:5px;
+}

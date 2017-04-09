@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>表单联动</title>
+		<meta charset="utf-8">
+		<link href="style/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<form action="" id="unit">
+			<input type="radio" name="status" id="student" checked>在校生
+			<input type="radio" name="status" id="non_student">非在校生
+			<div id="for_student">
+				<p>学校</p>
+				<select name="province" id="province">
+					<option value="0">请选择所在省市</option>
+					<option value="江苏">江苏</option>
+					<option value="浙江">浙江</option>
+					<option value="山东">山东</option>
+				</select>
+				<select name="school" id="school">
+					<option value="0">请选择学校</option>
+				</select>
+			</div>
+			<div id="for_non_student">
+				<p>就业单位</p>
+				<input type="text" id="company">
+			</div>
+		</form>
+		<script src="script.js"></script>
+	</body>
+</html>
